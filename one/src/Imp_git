@@ -1,0 +1,9 @@
+git clone -b my-branch git@github.com:user/myproject.git
+
+git push origin --delete <branch>  # Git version 1.7.0 or newer
+git push origin :<branch>          # Git versions older than 1.7.0
+
+git status
+git checkout
+git fetch
+git branch -a
