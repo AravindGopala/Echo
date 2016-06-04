@@ -10,3 +10,4 @@ git branch -a
 git push --all
 git branch -r
 git branch -b "New Branch" origin/test
+git branch --set-upstream-to=remotes/origin/developer
