@@ -11,3 +11,4 @@ git push --all
 git branch -r
 git branch -b "New Branch" origin/test
 git branch --set-upstream-to=remotes/origin/developer
+git checkout -b <new branch Name> <Existing branch name>
