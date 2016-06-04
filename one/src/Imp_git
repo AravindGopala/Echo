@@ -8,4 +8,4 @@ git checkout
 git fetch
 git branch -a
 git push --all
-
+t branch -r
