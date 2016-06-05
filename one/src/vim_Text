@@ -1,0 +1,11 @@
+Basics
+:e filename	Open filename for edition
+:w	Save file
+:q	Exit Vim
+:x!	Quit without saving
+:x 	Write file (if changes has been made) and exit
+:sav filename	Saves file as filename
+.	Repeats the last change made in normal mode
+5.	Repeats 5 times the last change made in normal mode
+
+
