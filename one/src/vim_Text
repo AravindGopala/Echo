@@ -7,5 +7,24 @@ Basics
 :sav filename	Saves file as filename
 .	Repeats the last change made in normal mode
 5.	Repeats 5 times the last change made in normal mode
-
-
+Moving in the file
+k or Up Arrow	move the cursor up one line
+j or Down Arrow	move the cursor down one line
+e	move the cursor to the end of the word
+b	move the cursor to the begining of the word
+0	move the cursor to the begining of the line
+G	move the cursor to the end of the file
+gg	move the cursor to the begining of the file
+L	move the cursor to the bottom of the screen
+:59	move cursor to line 59. Replace 59 by the desired line number.
+20|	move cursor to column 20.
+%	Move cursor to matching parenthesis
+[[	Jump to function start
+[{	Jump to block start
+Cut, copy & paste
+y	Copy the selected text to clipboard
+p	Paste clipboard contents
+dd	Cut current line
+yy	Copy current line
+y$	Copy to end of line
+D	Cut to end of line
